@@ -1,0 +1,7 @@
+<application>
+  <component name="GithubAccounts">
+    <account name="girvel" id="410226c0-27e5-4674-948d-a989ed94a79e">
+      <server host="github.com" />
+    </account>
+  </component>
+</application>

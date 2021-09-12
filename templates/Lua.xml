@@ -1,0 +1,23 @@
+<templateSet group="Lua">
+  <template name="closure" value="function() $END$ end" description="function() end" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="de" value="describe(&quot;$THING$&quot;, function()&#10;  $END$&#10;end)" description="busted description block" toReformat="false" toShortenFQNames="true">
+    <variable name="THING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="LUA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="it" value="it(&quot;$DOES$&quot;, function()&#10;  $END$&#10;end)" description="busted it block" toReformat="false" toShortenFQNames="true">
+    <variable name="DOES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="LUA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="re" value="local $LIBNAME$ = require '$LIBNAME$'&#10;$END$" description="local libname = require 'libname'" toReformat="false" toShortenFQNames="true">
+    <variable name="LIBNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="LUA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
