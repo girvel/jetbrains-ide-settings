@@ -16,6 +16,7 @@
         <option value="Lua" />
       </set>
     </option>
-    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
+    <option name="enabled" value="false" />
+    <option name="lastViewedProviderKeyId" value="KotlinLambdasHintsProvider" />
   </component>
 </application>
