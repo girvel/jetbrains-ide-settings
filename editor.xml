@@ -10,6 +10,9 @@
     <option name="FONT_BOLD_SUB_FAMILY" value="Bold" />
     <option name="LINE_SPACING" value="0.9" />
   </component>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
+  </component>
   <component name="InlayHintsSettings">
     <option name="disabledLanguages">
       <set>
