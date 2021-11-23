@@ -2,6 +2,9 @@
   <Lua>
     <option name="SPACE_INSIDE_INLINE_TABLE" value="false" />
   </Lua>
+  <ScalaCodeStyleSettings>
+    <option name="MULTILINE_STRING_CLOSING_QUOTES_ON_NEW_LINE" value="true" />
+  </ScalaCodeStyleSettings>
   <codeStyleSettings language="Lua">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
