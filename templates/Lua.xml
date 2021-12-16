@@ -1,7 +1,5 @@
 <templateSet group="Lua">
-  <template name="closure" value="function() $END$ end" description="function() end" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="closure" value="function() $END$ end" description="function() end" toReformat="false" toShortenFQNames="true" />
   <template name="de" value="describe(&quot;$THING$&quot;, function()&#10;  $END$&#10;end)" description="busted description block" toReformat="false" toShortenFQNames="true">
     <variable name="THING" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
