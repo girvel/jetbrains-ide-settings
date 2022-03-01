@@ -5,7 +5,8 @@
     <option name="AUTOCOMPLETE_ON_CODE_COMPLETION" value="false" />
   </component>
   <component name="EditorSettings">
-    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
+    <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR:CONSOLE" />
+    <option name="SOFT_WRAP_FILE_MASKS" value="*" />
   </component>
   <component name="InlayHintsSettings">
     <option name="disabledLanguages">
