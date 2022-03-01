@@ -5,7 +5,7 @@
     <option name="AUTOCOMPLETE_ON_CODE_COMPLETION" value="false" />
   </component>
   <component name="EditorSettings">
-    <option name="USE_SOFT_WRAPS" value="" />
+    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
   </component>
   <component name="InlayHintsSettings">
     <option name="disabledLanguages">
